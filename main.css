@@ -1,14 +1,30 @@
+/* The @import rule allows you to import a style sheet into another style sheet */
+/* Fonts - GoogleFont */
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Lato|Nunito+Sans:400,600);
 
 html {
-  font-family: sans-serif;
+	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
 
-body{
-	margin:0;
-  }
+body {
+	margin: 0;
+}
 
+h1 {
+	font-size: 6em;
+	margin: .67em 0;
+	font-family: Abril Fatface, Times New Roman, sans-serif;
+	font-weight: 500;
+	line-height: 1.1;
+	color: #fdfefe;
+}
+p {
+	font-size: 1.5em;
+	font-family: Nunito Sans, Times New Roman, sans-serif;
+	color: #fdfefe;
+}
 .background-image-container {
 	position: relative;
 	text-align: center;
@@ -17,14 +33,13 @@ body{
 	background-position: top;
 	padding: 12% 0;
 }
+
 /* header image overlay */
 .overlay {
-    background-color: rgba(245, 235, 235, 0.2);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+	background-color: rgba(245, 235, 235, 0.2);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
-
-
