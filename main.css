@@ -1,9 +1,22 @@
-body,
+
 html {
-
+  font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 
-h1{
-
+body{
+	margin:0;
+  }
+  
+.background-image-container {
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	padding: 12% 0;
 }
+
+
 
