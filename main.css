@@ -20,10 +20,15 @@ h1 {
 	line-height: 1.1;
 	color: #fdfefe;
 }
-p {
+.subtitle{
 	font-size: 1.5em;
 	font-family: Nunito Sans, Times New Roman, sans-serif;
 	color: #fdfefe;
+}
+p {
+	font-size: 1em;
+	font-family: Nunito Sans, Times New Roman, sans-serif;
+	color: #0c0e0e;
 }
 .background-image-container {
 	position: relative;
@@ -43,3 +48,10 @@ p {
 	left: 0;
 	right: 0;
 }
+
+.btn-primary {
+	color: #fff;
+	background-color: #51afa1;
+	border-color: #8acfc5;
+}
+
