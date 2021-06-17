@@ -20,6 +20,14 @@ h1 {
 	line-height: 1.1;
 	color: #fdfefe;
 }
+
+h2,
+h3 {
+	font-family: Abril Fatface, Times New Roman, Times, serif;
+	font-weight: 500;
+	line-height: 1.1;
+	color: #000;
+}
 .subtitle{
 	font-size: 1.5em;
 	font-family: Nunito Sans, Times New Roman, sans-serif;
@@ -54,8 +62,64 @@ p {
 	background-color: #51afa1;
 	border-color: #8acfc5;
 }
+
+/* Font Awesome */
 .fa-container {
 	text-align: center;
 	color: #000;
 }
 
+ /* New Section: Inspire */
+.section-container {
+    padding: 80px 0;
+}
+.section-half-background-image-container {
+	position: relative;
+	background-color: #eee;
+	padding: 80px 0 100px;
+}
+.section-half-background-image-container .image-column {
+	display: none;
+}
+.section-half-background-image-container .text-column {
+	padding: 30px;
+	position: relative;
+	left: 60%;
+	/* The stack level of the box */
+	z-index: 2;
+}
+@media (min-width: 992px) {
+	.section-half-background-image-container .image-column {
+		position: absolute;
+		display: block;
+		top: 0;
+		/* The stack level of the box */
+		z-index: 0;
+		bottom: 0;
+		width: 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top;
+	}
+}
+
+@media (min-width: 992px) {
+	.section-label p {
+		display: flex;
+		color: #fff;
+		font-size: 7em;
+		font-family: Abril Fatface, Times New Roman, Times, serif;
+		position: absolute;
+		left: 50%;
+		/* The stack level of the box */
+		z-index: 2;
+		top: 0;
+		height: 100%;
+		text-transform: uppercase;
+		align-items: center;
+		width: 260px;
+		margin-left: -130px;
+		/* word-break: break-all; */
+	}
+}
+ /* New Section: Form */
