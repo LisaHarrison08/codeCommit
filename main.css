@@ -70,8 +70,11 @@ p {
 }
 
  /* New Section: Inspire */
-.section-container {
-    padding: 80px 0;
+ .section-container {
+	padding: 80px 0;
+}
+.section-container-spacer {
+	margin-bottom: 30px;
 }
 .section-half-background-image-container {
 	position: relative;
@@ -122,4 +125,35 @@ p {
 		/* word-break: break-all; */
 	}
 }
- /* New Section: Form */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.card-img-top {
+	
+}
+
+.card-text {
+	font-size: 1em;
+	font-family: Nunito Sans, Times New Roman, sans-serif;
+	color: #0c0e0e;
+}
+
+/* Responsiveness */
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
