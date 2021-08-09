@@ -158,7 +158,11 @@ h2.text-center {
 	padding-right: 15px;
 }
 .card-img-top {
-	
+	transition:all 1s;	
+}
+
+.card-img-top:hover {
+	transform: scale(1.1);	
 }
 
 .card-text {
