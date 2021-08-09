@@ -12,6 +12,18 @@ body {
 	margin: 0;
 }
 
+/* navigation */
+.flex-sm-fill {
+	color: #51afa1;	
+	background-color: #02352d;
+}
+
+#home {
+	color: #02352d;
+	background-color: white;
+	/* opacity: 0.6; */
+}
+
 h1 {
 	font-size: 6em;
 	margin: .67em 0;
@@ -91,6 +103,20 @@ p {
 	/* The stack level of the box */
 	z-index: 2;
 }
+
+/* New Section: Form */
+
+h2.text-center {
+	text-align: center;
+}
+.contact-form-container {
+	background-color: #fff;
+	/* padding: 20px; */
+	position: relative;
+	left: 15%;
+}
+
+
 @media (min-width: 992px) {
 	.section-half-background-image-container .image-column {
 		position: absolute;
@@ -157,3 +183,4 @@ p {
 		width: 1170px;
 	}
 }
+
