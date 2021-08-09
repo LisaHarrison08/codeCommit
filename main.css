@@ -167,6 +167,19 @@ h2.text-center {
 	color: #0c0e0e;
 }
 
+/* footer section */
+.site-footer {
+	position: static;
+	left: 0;
+	bottom: 0;
+	height: 2.5rem;
+	width: 100%;
+	background-color: #5cbbad;
+	text-align: center;
+ } 
+
+
+
 /* Responsiveness */
 @media (min-width: 768px) {
 	.container {
