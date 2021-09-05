@@ -134,6 +134,9 @@ h2.text-center {
 	padding-left:1em;
 }
 
+.checkbox-inline{
+	padding-left: 1em;
+}
 
 @media (min-width: 992px) {
 	.section-half-background-image-container .image-column {
