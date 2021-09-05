@@ -123,9 +123,15 @@ h2.text-center {
 }
 .contact-form-container {
 	background-color: #fff;
-	/* padding: 20px; */
 	position: relative;
-	left: 15%;
+}
+
+.form-group{
+	padding: 1em;
+}
+
+.form-button{
+	padding-left:1em;
 }
 
 
