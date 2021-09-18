@@ -20,5 +20,33 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '/index.html'));
   });
 
+// Connection to database
+const db = require('knex')({
+  client: 'pg',
+  connection: {
+    host : '127.0.0.1',
+    port : 5432,
+    user : 'LmH80',
+    password : '',
+    database : 'join_db'
+  },
+});
+
+app.post('/join', (req, res) => {
+	const first = req.params.first;
+  const last = req.params.last;
+  const about = req.params.about;
+  const email = req.params.email;
+  	// const text = req.params.text;
+    db('users').insert({
+        first_name: first,
+        last_name:last,
+        email:email,
+        about:about,
+        joined:new Date()
+    }).then(console.log(first))
+    res.redirect('/')
+});
+
 // starts up the server on a specified port ('3000') localhost:3000 in browser 
 app.listen(3000);
