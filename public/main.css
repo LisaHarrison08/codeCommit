@@ -116,6 +116,23 @@ img{
 	z-index: 2;
 }
 
+#about{
+	text-align: center;
+	font-size: 2em;
+	padding:0.5em;
+}
+
+#about-us{
+	text-align: center;
+	font-size: 1.5em;
+	color:darkslategray;
+}
+
+/* Section: Creator Space */
+#card-text,p{
+	margin-top: 1em;
+	padding-top: 0.5em; 
+}
 /* New Section: Form */
 
 h2.text-center {
