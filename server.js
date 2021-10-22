@@ -16,9 +16,9 @@ app.use(express.json())
 
 /* app.get() method specifies a callback function that will be invoked whenever there is an HTTP GET request with a path ('/') relative to the site root. The callback function takes a request and a response object as arguments.
 get request to the root url which points to the index.html page */
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/index.html'));
-  });
+// app.get('/', function(req, res) {
+//     res.sendFile(path.join(__dirname, '/index.html'));
+//   });
 
 // Connection to database
 const db = require('knex')({
@@ -33,10 +33,11 @@ const db = require('knex')({
 });
 
 app.post('/join', (req, res) => {
-	const first = req.params.first;
-  const last = req.params.last;
-  const about = req.params.about;
-  const email = req.params.email;
+  console.log(req.body,req.params,)
+	const first = req.body.first;
+  const last = req.body.last;
+  const about = req.body.about;
+  const email = req.body.email;
   	// const text = req.params.text;
     db('users').insert({
         first_name: first,
@@ -49,4 +50,4 @@ app.post('/join', (req, res) => {
 });
 
 // starts up the server on a specified port ('3000') localhost:3000 in browser 
-app.listen(3000);
+app.listen(3000,function(){console.log("server running on 3000" )});
