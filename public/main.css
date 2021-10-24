@@ -69,11 +69,10 @@ p {
 	left: 0;
 	right: 0;
 }
-
-.btn-primary {
-	color: #fff;
-	background-color: #51afa1;
-	border-color: #8acfc5;
+/* Container Spacing */
+.section-container{
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 /* Font Awesome */
@@ -88,33 +87,27 @@ p {
 }
 
  /* Section: Inspire */
- .section-container {
-	padding: 80px 0;
-}
-.section-container-spacer {
-	margin-bottom: 30px;
-}
-.section-half-background-image-container {
-	position: relative;
+
+.section-container-half-background-image-container {
 	background-color: #eee;
 	padding: 80px 0 100px;
 }
-/* .section-half-background-image-container .image-column {
-	display: none;
-} */
 
-.image-column,
-img{
-	width:100%;
-	height:100%;
-}
-.section-half-background-image-container .text-column {
+.section-container-half-background-image-container .image-column,
+img{ 
+	width:60%; 
+	height:auto;
+} 
+/* .image-column{
+	width:50%; 
+	height:auto;
+}	  */
+
+
+.section-container-half-background-image-container .text-column {
 	padding: 20px;
-	position: relative;
-	left: 60%;
-	/* The stack level of the box */
-	z-index: 2;
 }
+	
 
 #about{
 	text-align: center;
@@ -153,6 +146,12 @@ h2.text-center {
 
 .checkbox-inline{
 	padding-left: 1em;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #51afa1;
+	border-color: #8acfc5;
 }
 
 @media (min-width: 992px) {
