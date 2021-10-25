@@ -75,6 +75,11 @@ p {
 	padding-bottom: 50px;
 }
 
+/* Section: The Place to */
+.text-center{
+	padding-bottom: 30px;
+}
+
 /* Font Awesome */
 .fa-container {
 	text-align: center;
@@ -88,37 +93,31 @@ p {
 
  /* Section: Inspire */
 
-.section-container-half-background-image-container {
-	background-color: #eee;
-	padding: 80px 0 100px;
+ .half-left  img {
+   height: auto;
+   width: 100%;
+ }
+.half-left  > .container{
+	position: absolute;
+	top: 0;
+   }
+
+.half-left  > .container { right: 0;}
+.half-right > .container { left: 0; }
+
+.half-right h2{
+	text-align: center;	
 }
 
-.section-container-half-background-image-container .image-column,
-img{ 
-	width:60%; 
-	height:auto;
-} 
-/* .image-column{
-	width:50%; 
-	height:auto;
-}	  */
-
-
-.section-container-half-background-image-container .text-column {
-	padding: 20px;
-}
-	
-
-#about{
-	text-align: center;
-	font-size: 2em;
-	padding:0.5em;
-}
-
-#about-us{
-	text-align: center;
-	font-size: 1.5em;
+.half-right h4{
+	text-align: center;	
 	color:darkslategray;
+}
+
+.half-right p{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 0;
 }
 
 /* Section: Creator Space */
@@ -154,40 +153,6 @@ h2.text-center {
 	border-color: #8acfc5;
 }
 
-@media (min-width: 992px) {
-	.section-half-background-image-container .image-column {
-		position: absolute;
-		display: block;
-		top: 0;
-		/* The stack level of the box */
-		z-index: 0;
-		bottom: 0;
-		width: 50%;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: top;
-	}
-}
-
-@media (min-width: 992px) {
-	.section-label p {
-		display: flex;
-		color: #fff;
-		font-size: 7em;
-		font-family: Abril Fatface, Times New Roman, Times, serif;
-		position: absolute;
-		left: 50%;
-		/* The stack level of the box */
-		z-index: 2;
-		top: 0;
-		height: 100%;
-		text-transform: uppercase;
-		align-items: center;
-		width: 260px;
-		margin-left: -130px;
-		/* word-break: break-all; */
-	}
-}
 .container {
 	margin-right: auto;
 	margin-left: auto;
@@ -219,22 +184,4 @@ h2.text-center {
 	text-align: center;
  } 
 
-
-
-/* Responsiveness */
-@media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
-}
-@media (min-width: 992px) {
-	.container {
-		width: 970px;
-	}
-}
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px;
-	}
-}
 
