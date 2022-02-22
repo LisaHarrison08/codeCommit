@@ -6,13 +6,13 @@ Start up website for a coding group/meetup
 A simple landing page which includes navigation between the different information sections. 
 Navigation bar provides option to link to external pages
 The join us form allows visitors to register their interest in joining the group
-* Form to be linked to Postgresql DB to store user input
+* Form is linked to a Postgresql DB to store user input
 
 ### Website 
 For reference, see the ["Screenshots" section](#screenshots) below.
 
 The website consists of 4 navigation links:
-*Home (disabled)
+*Home 
 *About us
 *Creator Space
 *Join us
