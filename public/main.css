@@ -2,12 +2,6 @@
 /* Fonts - GoogleFont */
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Lato|Nunito+Sans:400,600);
 
-html {
-	font-family: sans-serif;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
-
 body {
 	margin: 0;
 }
@@ -69,6 +63,7 @@ p {
 	left: 0;
 	right: 0;
 }
+
 /* Container Spacing */
 .section-container{
 	padding-top: 50px;
@@ -91,33 +86,28 @@ p {
 	color: #000;
 }
 
- /* Section: Inspire */
+ /* Section: About Us */
 
  .half-left  img {
    height: auto;
-   width: 100%;
+   width: 90%;
  }
-.half-left  > .container{
-	position: absolute;
-	top: 0;
-   }
-
-.half-left  > .container { right: 0;}
-.half-right > .container { left: 0; }
 
 .half-right h2{
-	text-align: center;	
+	text-align: center;
+	margin-top: 50px;;	
 }
 
 .half-right h4{
 	text-align: center;	
 	color:darkslategray;
+	padding:10px;
 }
 
 .half-right p{
 	text-align: center;
-	padding-left: 10px;
-	padding-right: 0;
+	padding-left: 40px;
+	padding-right: 20px;
 }
 
 /* Section: Creator Space */
@@ -125,6 +115,7 @@ p {
 	margin-top: 1em;
 	padding-top: 0.5em; 
 }
+
 /* New Section: Form */
 
 h2.text-center {
